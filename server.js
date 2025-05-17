@@ -6,8 +6,8 @@ const dotenv = require('dotenv');
 
 const app = express();
 app.use(cors({
-    origin: 'https://to-do-task-28.vercel.app',
-    credentials: true,
+  origin: 'https://frontend-task-29.vercel.app/',
+  credentials: true,
 }));
 
 app.get('/video/:filename', (req, res) => {
